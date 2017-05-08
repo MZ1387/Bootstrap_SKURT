@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   var phone;
 
-        $('#submit').on('click', function() {
+//         $('#submit').on('click', function() {
 
           phone = $('#phoneNumber').val().trim();
           // alert(typeof phone);
@@ -27,6 +27,6 @@ $(document).ready(function() {
                 console.log(response);
               });
 
-        });
+//         });
 
 });
