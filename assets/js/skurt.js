@@ -17,16 +17,23 @@ $(document).ready(function() {
                     "linkId": "default",
                     "phone": phone
                 }
-            }).success(function(response) {
-                console.log(response);
-                $('#phoneNumber').val('');
-            }).fail(function(error) {
-                console.log("FAILURE");
-                console.log(error);
-            });
-        } else {
-            alert("enter proper phone number");
+            })
+
+            $('#phoneNumber').val('');
+            
+            // .done(function(response) {
+            //   $('#phoneNumber').val('');
+            //     console.log(response);
+            //
+            // })
+            // .fail(function(error) {
+            //     console.log("FAILURE");
+            //     console.log(error);
+            // });
         }
+        // else {
+        //     alert("enter proper phone number");
+        // }
     });
 
 
