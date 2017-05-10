@@ -21,19 +21,7 @@ $(document).ready(function() {
 
             $('#phoneNumber').val('');
             
-            // .done(function(response) {
-            //   $('#phoneNumber').val('');
-            //     console.log(response);
-            //
-            // })
-            // .fail(function(error) {
-            //     console.log("FAILURE");
-            //     console.log(error);
-            // });
         }
-        // else {
-        //     alert("enter proper phone number");
-        // }
     });
 
 
